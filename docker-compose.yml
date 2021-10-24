@@ -18,7 +18,6 @@ services:
       dockerfile: ./Dockerfile
     depends_on:
       - db
-    image: wordpress:latest
     ports:
       - "8000:80"
     restart: always
